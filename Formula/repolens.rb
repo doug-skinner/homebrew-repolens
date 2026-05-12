@@ -1,28 +1,28 @@
 class Repolens < Formula
   desc "TUI dashboard for your GitHub repositories"
   homepage "https://github.com/doug-skinner/repolens"
-  version "0.9.1"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/doug-skinner/repolens/releases/download/v#{version}/repolens-darwin-arm64"
-      sha256 "5435dd655b2b583c192ab90427c8f01a97ecca68742cecbd95d997267f16ac80"
+      sha256 "91280fcbd330ecb1eed68ebbd910a408ddf0dca87749a02bd860d470af44692d"
     end
     on_intel do
       url "https://github.com/doug-skinner/repolens/releases/download/v#{version}/repolens-darwin-x64"
-      sha256 "2dee168d741f4afc0bfd27cb93c7423916f54ad82e8d03b6c94902c3e430e992"
+      sha256 "7b2260f16343537e26ba3931cd7e3d3936004c0c88f65541c652caef3602910e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/doug-skinner/repolens/releases/download/v#{version}/repolens-linux-arm64"
-      sha256 "1cb1348f23d75cbe9a1ff4c6205134b74e9c9dcef16d8b34a6aa28b31dfdc7bc"
+      sha256 "f1de083c8e2b11ac7aaf428c957fa9d7f8a0cd95ebba0a2e9692dfef877313bd"
     end
     on_intel do
       url "https://github.com/doug-skinner/repolens/releases/download/v#{version}/repolens-linux-x64"
-      sha256 "641ebe06a7953a9b228cbf1e8093ac89bb8d3831928d70af3a8a16fe1a4910fa"
+      sha256 "a1dfe2d2671debd48cdd4cb53c69eadbe0b9e2b8129724a89941a1a778aad0e9"
     end
   end
 
